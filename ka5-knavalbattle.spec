@@ -41,6 +41,13 @@ board which represents the sea. Players try to hit each others ships
 in turns without knowing where they are placed. The first player to
 destroy all ships wins the game.
 
+%description -l pl.UTF-8
+Naval Battle to gra w statki dla KDE. Okręty są umieszczone na
+planszy, która reprezentuje morze. Gracze próbują trafić statki
+przeciwnika, nie wiedząc, gdzie się one znajdują, wykonując strzały
+na przemian. Gracz, który pierwszy zatopi wszystkie okręty
+przeciwnika wygrywa.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
