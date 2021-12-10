@@ -1,15 +1,15 @@
-%define		kdeappsver	21.08.3
+%define		kdeappsver	21.12.0
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		knavalbattle
 Summary:	knavalbattle
 Name:		ka5-%{kaname}
-Version:	21.08.3
+Version:	21.12.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	6dc13e502e218a2c0710f9ecd8e5ba0b
+# Source0-md5:	bae1721d1c9d66df3a243a07f0643fb1
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
@@ -80,7 +80,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/32x32/apps/knavalbattle.png
 %{_iconsdir}/hicolor/48x48/apps/knavalbattle.png
 %{_iconsdir}/hicolor/64x64/apps/knavalbattle.png
-%{_datadir}/kconf_update/knavalbattle.upd
 %{_datadir}/knavalbattle
 %{_datadir}/metainfo/org.kde.knavalbattle.appdata.xml
 %{_datadir}/qlogging-categories5/knavalbattle.categories
